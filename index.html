@@ -1,0 +1,477 @@
+<html lang="en" class="scroll-smooth" style="scroll-behavior: smooth;"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O'Maystro | Elegant Mediterranean &amp; Italian Dining in Meknès</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: '#D4AF37',
+                        'gold-light': '#E5C07B',
+                        dark: '#0A0A0A',
+                        'dark-card': '#141414',
+                        'dark-lighter': '#1F1F1F'
+                    },
+                    fontFamily: {
+                        playfair: ['"Playfair Display"', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'glow': '0 0 20px rgba(212, 175, 55, 0.15)',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Inter, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.pointer-events-auto{pointer-events:auto}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.-inset-4{inset:-1rem}.inset-0{inset:0px}.bottom-10{bottom:2.5rem}.bottom-6{bottom:1.5rem}.left-1\/2{left:50%}.right-4{right:1rem}.right-6{right:1.5rem}.top-4{top:1rem}.top-6{top:1.5rem}.bottom-full{bottom:100%}.left-0{left:0px}.top-full{top:100%}.-z-10{z-index:-10}.z-10{z-index:10}.z-20{z-index:20}.z-40{z-index:40}.z-50{z-index:50}.z-\[10000\]{z-index:10000}.z-\[10001\]{z-index:10001}.z-\[9997\]{z-index:9997}.z-\[9998\]{z-index:9998}.z-\[9999\]{z-index:9999}.z-\[10002\]{z-index:10002}.z-\[10005\]{z-index:10005}.mx-4{margin-left:1rem;margin-right:1rem}.mx-auto{margin-left:auto;margin-right:auto}.mx-0\.5{margin-left:0.125rem;margin-right:0.125rem}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mt-1{margin-top:0.25rem}.mt-12{margin-top:3rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.ml-2{margin-left:0.5rem}.mb-1\.5{margin-bottom:0.375rem}.mt-0\.5{margin-top:0.125rem}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-4{height:1rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-7{height:1.75rem}.h-8{height:2rem}.h-\[400px\]{height:400px}.h-\[500px\]{height:500px}.h-full{height:100%}.h-screen{height:100vh}.h-1{height:0.25rem}.h-2{height:0.5rem}.h-3\.5{height:0.875rem}.h-2\.5{height:0.625rem}.h-3{height:0.75rem}.min-h-\[400px\]{min-height:400px}.w-4{width:1rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-7{width:1.75rem}.w-8{width:2rem}.w-full{width:100%}.w-1{width:0.25rem}.w-2{width:0.5rem}.w-3\.5{width:0.875rem}.w-2\.5{width:0.625rem}.w-px{width:1px}.min-w-\[280px\]{min-width:280px}.min-w-32{min-width:8rem}.max-w-4xl{max-width:56rem}.max-w-6xl{max-width:72rem}.max-w-7xl{max-width:80rem}.max-w-lg{max-width:32rem}.max-w-md{max-width:28rem}.max-w-sm{max-width:24rem}.flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}.origin-left{transform-origin:left}.-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-x-4{--tw-translate-x:1rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-y-4{--tw-translate-y:1rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-x-full{--tw-translate-x:100%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-x-0{--tw-translate-x:0px;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.scale-95{--tw-scale-x:.95;--tw-scale-y:.95;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.scale-x-0{--tw-scale-x:0;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes bounce{0%, 100%{transform:translateY(-25%);animation-timing-function:cubic-bezier(0.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,0.2,1)}}.animate-bounce{animation:bounce 1s infinite}.cursor-default{cursor:default}.cursor-ew-resize{cursor:ew-resize}.cursor-nesw-resize{cursor:nesw-resize}.cursor-ns-resize{cursor:ns-resize}.cursor-nwse-resize{cursor:nwse-resize}.cursor-pointer{cursor:pointer}.select-none{-webkit-user-select:none;user-select:none}.appearance-none{-webkit-appearance:none;appearance:none}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-16{gap:4rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-0\.5{gap:0.125rem}.gap-x-12{column-gap:3rem}.gap-y-8{row-gap:2rem}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-8 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-x-hidden{overflow-x:hidden}.scroll-smooth{scroll-behavior:smooth}.whitespace-nowrap{white-space:nowrap}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.rounded-sm{border-radius:0.125rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-y{border-top-width:1px;border-bottom-width:1px}.border-t{border-top-width:1px}.border-b{border-bottom-width:1px}.border-dashed{border-style:dashed}.border-gold{--tw-border-opacity:1;border-color:rgb(212 175 55 / var(--tw-border-opacity, 1))}.border-gold\/20{border-color:rgb(212 175 55 / 0.2)}.border-white\/10{border-color:rgb(255 255 255 / 0.1)}.border-white\/20{border-color:rgb(255 255 255 / 0.2)}.border-white\/5{border-color:rgb(255 255 255 / 0.05)}.border-blue-300\/60{border-color:rgb(147 197 253 / 0.6)}.border-blue-400\/40{border-color:rgb(96 165 250 / 0.4)}.border-blue-400\/20{border-color:rgb(96 165 250 / 0.2)}.border-blue-500\/60{border-color:rgb(59 130 246 / 0.6)}.border-emerald-500\/60{border-color:rgb(16 185 129 / 0.6)}.border-opacity-30{--tw-border-opacity:0.3}.bg-dark{--tw-bg-opacity:1;background-color:rgb(10 10 10 / var(--tw-bg-opacity, 1))}.bg-\[\#050505\]{--tw-bg-opacity:1;background-color:rgb(5 5 5 / var(--tw-bg-opacity, 1))}.bg-\[\#25D366\]{--tw-bg-opacity:1;background-color:rgb(37 211 102 / var(--tw-bg-opacity, 1))}.bg-black\/80{background-color:rgb(0 0 0 / 0.8)}.bg-dark-card{--tw-bg-opacity:1;background-color:rgb(20 20 20 / var(--tw-bg-opacity, 1))}.bg-dark-lighter{--tw-bg-opacity:1;background-color:rgb(31 31 31 / var(--tw-bg-opacity, 1))}.bg-gold{--tw-bg-opacity:1;background-color:rgb(212 175 55 / var(--tw-bg-opacity, 1))}.bg-transparent{background-color:transparent}.bg-white\/5{background-color:rgb(255 255 255 / 0.05)}.bg-blue-500\/20{background-color:rgb(59 130 246 / 0.2)}.bg-blue-500\/60{background-color:rgb(59 130 246 / 0.6)}.bg-gray-900\/95{background-color:rgb(17 24 39 / 0.95)}.bg-red-500\/20{background-color:rgb(239 68 68 / 0.2)}.bg-white\/15{background-color:rgb(255 255 255 / 0.15)}.bg-white\/20{background-color:rgb(255 255 255 / 0.2)}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.from-dark\/60{--tw-gradient-from:rgb(10 10 10 / 0.6) var(--tw-gradient-from-position);--tw-gradient-to:rgb(10 10 10 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-400\/80{--tw-gradient-from:rgb(96 165 250 / 0.8) var(--tw-gradient-from-position);--tw-gradient-to:rgb(96 165 250 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-500\/10{--tw-gradient-from:rgb(59 130 246 / 0.1) var(--tw-gradient-from-position);--tw-gradient-to:rgb(59 130 246 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-900\/50{--tw-gradient-from:rgb(49 46 129 / 0.5) var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-dark\/40{--tw-gradient-to:rgb(10 10 10 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), rgb(10 10 10 / 0.4) var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-indigo-500\/5{--tw-gradient-to:rgb(99 102 241 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), rgb(99 102 241 / 0.05) var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-dark{--tw-gradient-to:#0A0A0A var(--tw-gradient-to-position)}.to-blue-500\/90{--tw-gradient-to:rgb(59 130 246 / 0.9) var(--tw-gradient-to-position)}.to-slate-900\/40{--tw-gradient-to:rgb(15 23 42 / 0.4) var(--tw-gradient-to-position)}.fill-current{fill:currentColor}.object-cover{object-fit:cover}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-8{padding:2rem}.p-1\.5{padding:0.375rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-24{padding-top:6rem;padding-bottom:6rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-3\.5{padding-top:0.875rem;padding-bottom:0.875rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.pb-8{padding-bottom:2rem}.pt-16{padding-top:4rem}.pt-6{padding-top:1.5rem}.pb-4{padding-bottom:1rem}.pr-4{padding-right:1rem}.text-center{text-align:center}.font-sans{font-family:Inter, sans-serif}.font-playfair{font-family:"Playfair Display", serif}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-6xl{font-size:3.75rem;line-height:1}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.font-normal{font-weight:400}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-snug{line-height:1.375}.tracking-tight{letter-spacing:-0.025em}.tracking-wide{letter-spacing:0.025em}.tracking-wider{letter-spacing:0.05em}.tracking-widest{letter-spacing:0.1em}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235 / var(--tw-text-opacity, 1))}.text-dark{--tw-text-opacity:1;color:rgb(10 10 10 / var(--tw-text-opacity, 1))}.text-gold{--tw-text-opacity:1;color:rgb(212 175 55 / var(--tw-text-opacity, 1))}.text-gold-light{--tw-text-opacity:1;color:rgb(229 192 123 / var(--tw-text-opacity, 1))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-white\/50{color:rgb(255 255 255 / 0.5)}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-white\/60{color:rgb(255 255 255 / 0.6)}.text-white\/90{color:rgb(255 255 255 / 0.9)}.text-white\/95{color:rgb(255 255 255 / 0.95)}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-red-400{--tw-text-opacity:1;color:rgb(248 113 113 / var(--tw-text-opacity, 1))}.text-white\/80{color:rgb(255 255 255 / 0.8)}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.caret-blue-500{caret-color:#3b82f6}.opacity-0{opacity:0}.opacity-40{opacity:0.4}.opacity-90{opacity:0.9}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-\[0_0_20px_rgba\(37\2c 211\2c 102\2c 0\.3\)\]{--tw-shadow:0 0 20px rgba(37,211,102,0.3);--tw-shadow-colored:0 0 20px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.ring-1{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.ring-blue-400\/15{--tw-ring-color:rgb(96 165 250 / 0.15)}.ring-blue-400\/30{--tw-ring-color:rgb(96 165 250 / 0.3)}.ring-white\/0{--tw-ring-color:rgb(255 255 255 / 0)}.ring-white\/10{--tw-ring-color:rgb(255 255 255 / 0.1)}.ring-blue-500\/25{--tw-ring-color:rgb(59 130 246 / 0.25)}.ring-white\/15{--tw-ring-color:rgb(255 255 255 / 0.15)}.ring-emerald-500\/25{--tw-ring-color:rgb(16 185 129 / 0.25)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-xl{--tw-backdrop-blur:blur(24px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-saturate-150{--tw-backdrop-saturate:saturate(1.5);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.duration-500{transition-duration:500ms}.duration-150{transition-duration:150ms}.duration-200{transition-duration:200ms}.ease-out{transition-timing-function:cubic-bezier(0, 0, 0.2, 1)}.ease-\[cubic-bezier\(0\.34\2c 1\.56\2c 0\.64\2c 1\)\]{transition-timing-function:cubic-bezier(0.34,1.56,0.64,1)}.ease-in-out{transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-110:hover{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-\[1\.02\]:hover{--tw-scale-x:1.02;--tw-scale-y:1.02;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:border-gold:hover{--tw-border-opacity:1;border-color:rgb(212 175 55 / var(--tw-border-opacity, 1))}.hover\:border-gold\/30:hover{border-color:rgb(212 175 55 / 0.3)}.hover\:border-gold\/50:hover{border-color:rgb(212 175 55 / 0.5)}.hover\:border-blue-200\/80:hover{border-color:rgb(191 219 254 / 0.8)}.hover\:bg-gold:hover{--tw-bg-opacity:1;background-color:rgb(212 175 55 / var(--tw-bg-opacity, 1))}.hover\:bg-gold-light:hover{--tw-bg-opacity:1;background-color:rgb(229 192 123 / var(--tw-bg-opacity, 1))}.hover\:bg-white\/15:hover{background-color:rgb(255 255 255 / 0.15)}.hover\:bg-red-500\/30:hover{background-color:rgb(239 68 68 / 0.3)}.hover\:bg-white\/10:hover{background-color:rgb(255 255 255 / 0.1)}.hover\:bg-white\/25:hover{background-color:rgb(255 255 255 / 0.25)}.hover\:from-blue-300\/90:hover{--tw-gradient-from:rgb(147 197 253 / 0.9) var(--tw-gradient-from-position);--tw-gradient-to:rgb(147 197 253 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\:from-indigo-900\/60:hover{--tw-gradient-from:rgb(49 46 129 / 0.6) var(--tw-gradient-from-position);--tw-gradient-to:rgb(49 46 129 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.hover\:to-blue-400\/95:hover{--tw-gradient-to:rgb(96 165 250 / 0.95) var(--tw-gradient-to-position)}.hover\:to-slate-900\/50:hover{--tw-gradient-to:rgb(15 23 42 / 0.5) var(--tw-gradient-to-position)}.hover\:text-dark:hover{--tw-text-opacity:1;color:rgb(10 10 10 / var(--tw-text-opacity, 1))}.hover\:text-gold:hover{--tw-text-opacity:1;color:rgb(212 175 55 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:text-blue-500:hover{--tw-text-opacity:1;color:rgb(59 130 246 / var(--tw-text-opacity, 1))}.hover\:text-white\/90:hover{color:rgb(255 255 255 / 0.9)}.hover\:text-red-300:hover{--tw-text-opacity:1;color:rgb(252 165 165 / var(--tw-text-opacity, 1))}.hover\:shadow-xl:hover{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:shadow-md:hover{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:ring-blue-300\/50:hover{--tw-ring-color:rgb(147 197 253 / 0.5)}.hover\:ring-white\/10:hover{--tw-ring-color:rgb(255 255 255 / 0.1)}.hover\:ring-white\/20:hover{--tw-ring-color:rgb(255 255 255 / 0.2)}.hover\:ring-white\/25:hover{--tw-ring-color:rgb(255 255 255 / 0.25)}.hover\:backdrop-blur-2xl:hover{--tw-backdrop-blur:blur(40px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.hover\:backdrop-blur-md:hover{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.focus\:border-gold:focus{--tw-border-opacity:1;border-color:rgb(212 175 55 / var(--tw-border-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:outline-2:focus{outline-width:2px}.focus\:outline-offset-2:focus{outline-offset:2px}.focus\:outline-white\/40:focus{outline-color:rgb(255 255 255 / 0.4)}.active\:scale-95:active{--tw-scale-x:.95;--tw-scale-y:.95;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:scale-x-100{--tw-scale-x:1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:bg-blue-500\/40{background-color:rgb(59 130 246 / 0.4)}.group:hover .group-hover\:text-gold{--tw-text-opacity:1;color:rgb(212 175 55 / var(--tw-text-opacity, 1))}.group:hover .group-hover\:opacity-100{opacity:1}@media not all and (min-width: 640px){.max-sm\:right-4{right:1rem}.max-sm\:min-w-\[260px\]{min-width:260px}.max-sm\:max-w-\[calc\(100vw-2rem\)\]{max-width:calc(100vw - 2rem)}}@media (min-width: 640px){.sm\:w-auto{width:auto}.sm\:min-w-\[280px\]{min-width:280px}.sm\:max-w-sm{max-width:24rem}.sm\:flex-row{flex-direction:row}}@media (min-width: 768px){.md\:flex{display:flex}.md\:hidden{display:none}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:gap-6{gap:1.5rem}.md\:px-12{padding-left:3rem;padding-right:3rem}.md\:text-3xl{font-size:1.875rem;line-height:2.25rem}.md\:text-5xl{font-size:3rem;line-height:1}.md\:text-8xl{font-size:6rem;line-height:1}}@media (min-width: 1024px){.lg\:h-auto{height:auto}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}}</style></head>
+<body class="bg-dark text-gray-200 font-sans antialiased overflow-x-hidden" style="">
+
+    <nav id="navbar" class="fixed w-full z-40 transition-all duration-500 py-4 px-6 md:px-12 flex justify-between items-center bg-transparent">
+        <a href="#" class="text-3xl font-playfair font-bold text-white tracking-wider flex items-center gap-2">
+            O'Maystro<span class="text-gold">.</span>
+        </a>
+        
+        <div class="hidden md:flex space-x-8 text-sm font-medium tracking-wide">
+            <a href="#about" class="text-gray-300 hover:text-gold transition-colors">About</a>
+            <a href="#menu" class="text-gray-300 hover:text-gold transition-colors">Menu</a>
+            <a href="#reviews" class="text-gray-300 hover:text-gold transition-colors">Reviews</a>
+            <a href="#location" class="text-gray-300 hover:text-gold transition-colors">Location</a>
+        </div>
+        
+        <div class="hidden md:flex items-center space-x-4">
+            <button id="nav-book-btn" class="border border-gold text-gold px-6 py-2 rounded-full hover:bg-gold hover:text-dark transition-all duration-300">
+                Book a Table
+            </button>
+        </div>
+
+        <button class="md:hidden text-white" id="mobile-menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="menu" aria-hidden="true" class="lucide lucide-menu w-6 h-6"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
+        </button>
+    </nav>
+
+    <div id="mobile-menu" class="fixed inset-0 bg-dark z-50 flex flex-col items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+        <button id="close-mobile-menu" class="absolute top-6 right-6 text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="x" aria-hidden="true" class="lucide lucide-x w-8 h-8"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+        </button>
+        <div class="flex flex-col items-center space-y-8 text-2xl font-playfair">
+            <a href="#about" class="mobile-link text-white hover:text-gold transition-colors">About</a>
+            <a href="#menu" class="mobile-link text-white hover:text-gold transition-colors">Menu</a>
+            <a href="#reviews" class="mobile-link text-white hover:text-gold transition-colors">Reviews</a>
+            <a href="#location" class="mobile-link text-white hover:text-gold transition-colors">Location</a>
+            <button id="mobile-book-btn" class="mt-8 border border-gold text-gold px-8 py-3 rounded-full">Book a Table</button>
+        </div>
+    </div>
+
+    <section id="hero" class="relative h-screen w-full flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-dark">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" alt="Cinematic Pizza" class="w-full h-full object-cover opacity-40 scale-105" id="hero-img" style="translate: none; rotate: none; scale: none; transform: scale(1.05, 1.05);">
+            <div class="absolute inset-0 bg-gradient-to-b from-dark/60 via-dark/40 to-dark"></div>
+        </div>
+        
+        <canvas id="particles-canvas" class="absolute inset-0 z-10 pointer-events-none" width="1190" height="630"></canvas>
+        
+        <div class="relative z-20 text-center px-4 max-w-4xl mx-auto gs-reveal" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+            <h1 class="text-6xl md:text-8xl font-playfair font-bold text-white mb-6 tracking-tight">DEMO#01</h1>
+            <p class="text-xl md:text-3xl font-playfair text-gold-light italic mb-10">
+                "Where Italian Passion Meets Mediterranean Flavor"
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#menu" class="bg-gold text-dark font-semibold px-8 py-4 rounded-full hover:bg-gold-light transition-all duration-300 w-full sm:w-auto text-center transform hover:scale-105">
+                    View Menu
+                </a>
+                <a href="https://glovoapp.com" target="_blank" class="bg-dark-card border border-white/20 text-white font-semibold px-8 py-4 rounded-full hover:border-gold hover:text-gold transition-all duration-300 w-full sm:w-auto text-center flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shopping-bag" aria-hidden="true" class="lucide lucide-shopping-bag w-5 h-5"><path d="M16 10a4 4 0 0 1-8 0"></path><path d="M3.103 6.034h17.794"></path><path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"></path></svg> Order on Glovo
+                </a>
+            </div>
+        </div>
+        
+        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 animate-bounce">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" aria-hidden="true" class="lucide lucide-chevron-down w-8 h-8 text-white/50"><path d="m6 9 6 6 6-6"></path></svg>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 px-6 md:px-12 max-w-7xl mx-auto relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="gs-reveal relative" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 50px);">
+                <div class="absolute -inset-4 border border-gold/20 translate-x-4 translate-y-4 rounded-lg -z-10"></div>
+                <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&amp;w=1000&amp;auto=format&amp;fit=crop" alt="O'Maystro Interior" class="w-full h-[500px] object-cover rounded-lg shadow-2xl">
+            </div>
+            
+            <div class="gs-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 50px);">
+                <h2 class="text-gold text-sm font-bold tracking-widest uppercase mb-4">Discover</h2>
+                <h3 class="text-4xl md:text-5xl font-playfair text-white mb-8">Modern Mediterranean Elegance</h3>
+                <p class="text-gray-400 text-lg leading-relaxed mb-8">
+                    O’Maystro is a modern Mediterranean restaurant in Meknès offering Italian classics, gourmet burgers, fresh pastas, pizzas, tacos and refined French-inspired plates in a stylish and welcoming atmosphere.
+                </p>
+                
+                <div class="grid grid-cols-2 gap-6 mt-8">
+                    <div class="flex items-start gap-4">
+                        <div class="p-3 rounded-full bg-dark-lighter border border-gold/20 text-gold">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="clock" aria-hidden="true" class="lucide lucide-clock w-6 h-6"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-medium mb-1">Fast Service</h4>
+                            <p class="text-sm text-gray-500">Efficient and flawless</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="p-3 rounded-full bg-dark-lighter border border-gold/20 text-gold">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="users" aria-hidden="true" class="lucide lucide-users w-6 h-6"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M16 3.128a4 4 0 0 1 0 7.744"></path><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle></svg>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-medium mb-1">Friendly Staff</h4>
+                            <p class="text-sm text-gray-500">Welcoming ambiance</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="p-3 rounded-full bg-dark-lighter border border-gold/20 text-gold">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="percent" aria-hidden="true" class="lucide lucide-percent w-6 h-6"><line x1="19" x2="5" y1="5" y2="19"></line><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-medium mb-1">Great Value</h4>
+                            <p class="text-sm text-gray-500">Half &amp; Half formula</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="p-3 rounded-full bg-dark-lighter border border-gold/20 text-gold">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="coffee" aria-hidden="true" class="lucide lucide-coffee w-6 h-6"><path d="M10 2v2"></path><path d="M14 2v2"></path><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"></path><path d="M6 2v2"></path></svg>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-medium mb-1">Cozy Ambiance</h4>
+                            <p class="text-sm text-gray-500">Stylish and comfortable</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="py-24 bg-dark-card border-y border-white/5 relative z-10">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <div class="text-center mb-16 gs-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 50px);">
+                <h2 class="text-gold text-sm font-bold tracking-widest uppercase mb-4">Culinary Excellence</h2>
+                <h3 class="text-4xl md:text-5xl font-playfair text-white">Our Menu</h3>
+            </div>
+            
+            <div class="flex flex-wrap justify-center gap-3 md:gap-6 mb-16 gs-reveal" id="menu-tabs" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 50px);">
+            <button class="tab-btn px-6 py-2 rounded-full border border-white/20 text-sm font-medium tracking-wide
+                         active" data-category="Pizza">Pizza</button><button class="tab-btn px-6 py-2 rounded-full border border-white/20 text-sm font-medium tracking-wide
+                         text-gray-400 hover:border-gold/50 hover:text-white" data-category="Pâtes">Pâtes</button><button class="tab-btn px-6 py-2 rounded-full border border-white/20 text-sm font-medium tracking-wide
+                         text-gray-400 hover:border-gold/50 hover:text-white" data-category="Burgers">Burgers</button><button class="tab-btn px-6 py-2 rounded-full border border-white/20 text-sm font-medium tracking-wide
+                         text-gray-400 hover:border-gold/50 hover:text-white" data-category="Tacos">Tacos</button><button class="tab-btn px-6 py-2 rounded-full border border-white/20 text-sm font-medium tracking-wide
+                         text-gray-400 hover:border-gold/50 hover:text-white" data-category="Plats">Plats</button><button class="tab-btn px-6 py-2 rounded-full border border-white/20 text-sm font-medium tracking-wide
+                         text-gray-400 hover:border-gold/50 hover:text-white" data-category="Salades">Salades</button><button class="tab-btn px-6 py-2 rounded-full border border-white/20 text-sm font-medium tracking-wide
+                         text-gray-400 hover:border-gold/50 hover:text-white" data-category="Kids">Kids</button><button class="tab-btn px-6 py-2 rounded-full border border-white/20 text-sm font-medium tracking-wide
+                         text-gray-400 hover:border-gold/50 hover:text-white" data-category="Sandwich">Sandwich</button><button class="tab-btn px-6 py-2 rounded-full border border-white/20 text-sm font-medium tracking-wide
+                         text-gray-400 hover:border-gold/50 hover:text-white" data-category="Crêpes">Crêpes</button></div>
+
+            <div class="relative min-h-[400px]">
+                <div id="menu-content" class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 transition-opacity duration-300" style="opacity: 1;"><div class="menu-item-card flex justify-between items-end border-b border-white/10 pb-4 group cursor-default" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                    <div class="pr-4">
+                        <h4 class="text-xl font-playfair text-white group-hover:text-gold transition-colors duration-300">
+                            Margherita
+                        </h4>
+                    </div>
+                    <span class="text-gold font-medium whitespace-nowrap">35dh (M) / 50dh (L)</span>
+                </div><div class="menu-item-card flex justify-between items-end border-b border-white/10 pb-4 group cursor-default" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                    <div class="pr-4">
+                        <h4 class="text-xl font-playfair text-white group-hover:text-gold transition-colors duration-300">
+                            Forestière
+                        </h4>
+                    </div>
+                    <span class="text-gold font-medium whitespace-nowrap">40dh / 60dh</span>
+                </div><div class="menu-item-card flex justify-between items-end border-b border-white/10 pb-4 group cursor-default" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                    <div class="pr-4">
+                        <h4 class="text-xl font-playfair text-white group-hover:text-gold transition-colors duration-300">
+                            Thon
+                        </h4>
+                    </div>
+                    <span class="text-gold font-medium whitespace-nowrap">45dh / 65dh</span>
+                </div><div class="menu-item-card flex justify-between items-end border-b border-white/10 pb-4 group cursor-default" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                    <div class="pr-4">
+                        <h4 class="text-xl font-playfair text-white group-hover:text-gold transition-colors duration-300">
+                            Steak Hachée
+                        </h4>
+                    </div>
+                    <span class="text-gold font-medium whitespace-nowrap">50dh / 70dh</span>
+                </div><div class="menu-item-card flex justify-between items-end border-b border-white/10 pb-4 group cursor-default" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                    <div class="pr-4">
+                        <h4 class="text-xl font-playfair text-white group-hover:text-gold transition-colors duration-300">
+                            La Folle
+                        </h4>
+                    </div>
+                    <span class="text-gold font-medium whitespace-nowrap">50dh / 70dh</span>
+                </div><div class="menu-item-card flex justify-between items-end border-b border-white/10 pb-4 group cursor-default" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                    <div class="pr-4">
+                        <h4 class="text-xl font-playfair text-white group-hover:text-gold transition-colors duration-300">
+                            Cinq Fromages
+                        </h4>
+                    </div>
+                    <span class="text-gold font-medium whitespace-nowrap">60dh / 80dh</span>
+                </div><div class="menu-item-card flex justify-between items-end border-b border-white/10 pb-4 group cursor-default" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                    <div class="pr-4">
+                        <h4 class="text-xl font-playfair text-white group-hover:text-gold transition-colors duration-300">
+                            Marechiaro
+                        </h4>
+                    </div>
+                    <span class="text-gold font-medium whitespace-nowrap">65dh / 85dh</span>
+                </div><div class="menu-item-card flex justify-between items-end border-b border-white/10 pb-4 group cursor-default" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                    <div class="pr-4">
+                        <h4 class="text-xl font-playfair text-white group-hover:text-gold transition-colors duration-300">
+                            César
+                        </h4>
+                    </div>
+                    <span class="text-gold font-medium whitespace-nowrap">70dh / 90dh</span>
+                </div><div class="menu-item-card flex justify-between items-end border-b border-white/10 pb-4 group cursor-default" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                    <div class="pr-4">
+                        <h4 class="text-xl font-playfair text-white group-hover:text-gold transition-colors duration-300">
+                            Pepperoni
+                        </h4>
+                    </div>
+                    <span class="text-gold font-medium whitespace-nowrap">70dh / 90dh</span>
+                </div><div class="menu-item-card flex justify-between items-end border-b border-white/10 pb-4 group cursor-default" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                    <div class="pr-4">
+                        <h4 class="text-xl font-playfair text-white group-hover:text-gold transition-colors duration-300">
+                            Bacon
+                        </h4>
+                    </div>
+                    <span class="text-gold font-medium whitespace-nowrap">70dh / 90dh</span>
+                </div><div class="menu-item-card flex justify-between items-end border-b border-white/10 pb-4 group cursor-default" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                    <div class="pr-4">
+                        <h4 class="text-xl font-playfair text-white group-hover:text-gold transition-colors duration-300">
+                            Festina
+                        </h4>
+                    </div>
+                    <span class="text-gold font-medium whitespace-nowrap">70dh / 90dh</span>
+                </div><div class="menu-item-card flex justify-between items-end border-b border-white/10 pb-4 group cursor-default" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                    <div class="pr-4">
+                        <h4 class="text-xl font-playfair text-white group-hover:text-gold transition-colors duration-300">
+                            Royale
+                        </h4>
+                    </div>
+                    <span class="text-gold font-medium whitespace-nowrap">90dh / 110dh</span>
+                </div><div class="menu-item-card flex justify-between items-end border-b border-white/10 pb-4 group cursor-default" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                    <div class="pr-4">
+                        <h4 class="text-xl font-playfair text-white group-hover:text-gold transition-colors duration-300">
+                            4 Saisons
+                        </h4>
+                    </div>
+                    <span class="text-gold font-medium whitespace-nowrap">70dh / 90dh</span>
+                </div></div>
+                
+                <div id="menu-extras" class="hidden mt-12 text-center text-gray-400 text-sm border-t border-white/10 pt-6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="py-24 px-6 md:px-12 max-w-7xl mx-auto relative z-10">
+        <div class="text-center mb-16 gs-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 50px);">
+            <h2 class="text-gold text-sm font-bold tracking-widest uppercase mb-4">Testimonials</h2>
+            <h3 class="text-4xl md:text-5xl font-playfair text-white mb-6">What Our Guests Say</h3>
+            <div class="flex items-center justify-center gap-4 text-xl">
+                <span class="text-2xl font-bold text-white">4.0</span>
+                <div class="flex text-gold">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-5 h-5 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-5 h-5 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-5 h-5 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-5 h-5 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-5 h-5 text-gray-600"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                </div>
+                <span class="text-gray-500 text-sm">(283 reviews)</span>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 gs-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 50px);">
+            <div class="bg-dark-lighter p-8 rounded-xl border border-white/5 hover:border-gold/30 transition-colors duration-300">
+                <div class="flex text-gold mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                </div>
+                <p class="text-gray-300 font-playfair italic mb-6">"Fast service from order to table. Perfect for a quick yet elegant lunch."</p>
+                <div class="text-sm text-gray-500">- Amine B.</div>
+            </div>
+            
+            <div class="bg-dark-lighter p-8 rounded-xl border border-white/5 hover:border-gold/30 transition-colors duration-300">
+                <div class="flex text-gold mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                </div>
+                <p class="text-gray-300 font-playfair italic mb-6">"Incredibly friendly staff. They made our family dinner special from the moment we walked in."</p>
+                <div class="text-sm text-gray-500">- Sarah M.</div>
+            </div>
+
+            <div class="bg-dark-lighter p-8 rounded-xl border border-white/5 hover:border-gold/30 transition-colors duration-300">
+                <div class="flex text-gold mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 text-gray-600"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                </div>
+                <p class="text-gray-300 font-playfair italic mb-6">"Beautiful decor, very premium vibe. Easily one of the best looking spots in Meknès."</p>
+                <div class="text-sm text-gray-500">- Karim T.</div>
+            </div>
+
+            <div class="bg-dark-lighter p-8 rounded-xl border border-white/5 hover:border-gold/30 transition-colors duration-300">
+                <div class="flex text-gold mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                </div>
+                <p class="text-gray-300 font-playfair italic mb-6">"Delicious Mediterranean twist on classic dishes. The pizzas and pastas are out of this world."</p>
+                <div class="text-sm text-gray-500">- Laila R.</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="py-24 bg-dark-card border-t border-white/5 relative z-10">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                <div class="gs-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 50px);">
+                    <h2 class="text-gold text-sm font-bold tracking-widest uppercase mb-4">Visit Us</h2>
+                    <h3 class="text-4xl md:text-5xl font-playfair text-white mb-8">Location &amp; Contact</h3>
+                    
+                    <div class="space-y-6 mb-10">
+                        <div class="flex items-start gap-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" aria-hidden="true" class="lucide lucide-map-pin w-6 h-6 text-gold mt-1"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <div>
+                                <h4 class="text-white font-medium">Address</h4>
+                                <p class="text-gray-400">Résidence Arreda, Magasin 1,2<br>Rue de Fes, Meknès 50000</p>
+                                <p class="text-sm text-gold mt-1">VFX5+CW Meknès</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start gap-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone" aria-hidden="true" class="lucide lucide-phone w-6 h-6 text-gold mt-1"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
+                            <div>
+                                <h4 class="text-white font-medium">Phone</h4>
+                                <p class="text-gray-400">06 56 88 33 22</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start gap-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="clock" aria-hidden="true" class="lucide lucide-clock w-6 h-6 text-gold mt-1"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                            <div>
+                                <h4 class="text-white font-medium">Hours</h4>
+                                <p class="text-gray-400">Opens at 12:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start gap-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="info" aria-hidden="true" class="lucide lucide-info w-6 h-6 text-gold mt-1"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>
+                            <div>
+                                <h4 class="text-white font-medium">Services</h4>
+                                <p class="text-gray-400">Dine-in • Takeaway • Contactless delivery</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="tel:0656883322" class="bg-gold text-dark font-medium px-6 py-3 rounded-full hover:bg-gold-light transition-all text-center flex items-center justify-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone-call" aria-hidden="true" class="lucide lucide-phone-call w-5 h-5"><path d="M13 2a9 9 0 0 1 9 9"></path><path d="M13 6a5 5 0 0 1 5 5"></path><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg> Call Now
+                        </a>
+                        <a href="https://maps.google.com/?q=VFX5+CW+Meknès" target="_blank" class="bg-white/5 border border-white/20 text-white font-medium px-6 py-3 rounded-full hover:border-gold hover:text-gold transition-all text-center flex items-center justify-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="navigation" aria-hidden="true" class="lucide lucide-navigation w-5 h-5"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg> Get Directions
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="gs-reveal rounded-xl overflow-hidden border border-white/10 h-[400px] lg:h-auto" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 50px);">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.956627068541!2d-5.5414521!3d33.8912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda044d230000001%3A0x6b00000000000000!2sRue%20de%20F%C3%A8s%2C%20Mekn%C3%A8s%2C%20Morocco!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="100%" style="border:0; filter: grayscale(100%) invert(92%) contrast(83%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#050505] pt-16 pb-8 border-t border-gold/20 relative z-10 text-center">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl font-playfair font-bold text-gold mb-6 tracking-widest">
+                O'Maystro<span class="text-white">.</span>
+            </h2>
+            <p class="text-gray-500 mb-8 max-w-lg mx-auto">
+                Elevating Mediterranean and Italian cuisine in the heart of Meknès. Join us for an unforgettable dining experience.
+            </p>
+            <div class="flex justify-center gap-6 mb-12">
+                <a href="#" class="text-gray-400 hover:text-gold transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="instagram" aria-hidden="true" class="lucide lucide-instagram w-6 h-6"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gold transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="facebook" aria-hidden="true" class="lucide lucide-facebook w-6 h-6"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                </a>
+            </div>
+            <p class="text-gray-600 text-sm">
+                © <span id="year">2026</span> O'Maystro. All rights reserved. Design inspired by Mediterranean elegance.
+            </p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/212656883322" target="_blank" class="fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-[0_0_20px_rgba(37,211,102,0.3)] hover:scale-110 transition-transform duration-300 z-40 flex items-center justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="message-circle" aria-hidden="true" class="lucide lucide-message-circle w-7 h-7"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path></svg>
+    </a>
+
+    <div id="booking-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
+        <div class="bg-dark-card border border-white/10 p-8 rounded-2xl max-w-md w-full mx-4 shadow-2xl relative">
+            <button id="close-modal" class="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="x" aria-hidden="true" class="lucide lucide-x w-6 h-6"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+            </button>
+            <h3 class="text-3xl font-playfair text-white mb-2">Reserve a Table</h3>
+            <p class="text-gray-400 mb-6 text-sm">Experience Mediterranean elegance.</p>
+            
+            <form id="booking-form" class="space-y-4">
+                <div>
+                    <input type="text" placeholder="Full Name" class="w-full bg-dark border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-gold transition-colors">
+                </div>
+                <div>
+                    <input type="tel" placeholder="Phone Number" class="w-full bg-dark border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-gold transition-colors">
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <input type="date" class="w-full bg-dark border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-gold transition-colors">
+                    <input type="time" class="w-full bg-dark border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-gold transition-colors">
+                </div>
+                <div>
+                    <select class="w-full bg-dark border border-white/10 rounded-lg px-4 py-3 text-gray-400 focus:outline-none focus:border-gold transition-colors appearance-none">
+                        <option value="" disabled="" selected="">Number of Guests</option>
+                        <option value="1">1 Person</option>
+                        <option value="2">2 People</option>
+                        <option value="3">3 People</option>
+                        <option value="4">4 People</option>
+                        <option value="5+">5+ People</option>
+                    </select>
+                </div>
+                <button type="button" id="submit-booking" class="w-full bg-gold text-dark font-medium py-3 rounded-lg hover:bg-gold-light transition-colors mt-4">
+                    Confirm Reservation
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+
+
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v67327c56f0bb4ef8b305cae61679db8f1769101564043" integrity="sha512-rdcWY47ByXd76cbCFzznIcEaCN71jqkWBBqlwhF1SY7KubdLKZiEGeP7AyieKZlGP9hbY/MhGrwXzJC/HulNyg==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;1fc2606a19724fc9b301fa667542318a&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+
+
+</body></html>
